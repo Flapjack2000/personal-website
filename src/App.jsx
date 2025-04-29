@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1 class="text-3xl text-blue-600/90 dark:text-red-400/100 font-bold shadow-blue">Zachary Williams</h1>
+      <h1 class="text-3xl ">Zachary Williams</h1>
       <p></p>
     </>
   )
