@@ -9,7 +9,7 @@ function App() {
         <p class="text-5xl flex-1">Hi, I'm Zach!</p>
       </div> */}
 
-      <div class="flex items-center justify-center">
+      <div style="height:auto" class="flex items-center justify-center">
         <p>Text centered vertically and horizontally.</p>
       </div>
     </>
