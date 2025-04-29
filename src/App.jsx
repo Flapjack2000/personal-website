@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div class="flex h-screen justify-center items-center">
-        <p class="text-5xl">Hi, I'm Zach!</p>
+        <p class="text-50xl">Hi, I'm Zach!</p>
       </div>
     </>
   )
