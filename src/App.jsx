@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Tailwind works!</h1>
+      <h1 class="text-3xl font-bold underline">Zachary Williams</h1>
 
     </>
   )
