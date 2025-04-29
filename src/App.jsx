@@ -5,11 +5,13 @@ import viteLogo from '/vite.svg'
 function App() {
   return (
     <>
-      <div class="flex h-screen justify-center content-center">
-        <p class="text-5xl">Hi, I'm Zach!</p>
+      <div class="flex h-screen justify-center items-center">
+        <p class="text-5xl flex-1">Hi, I'm Zach!</p>
       </div>
-      <hr />
-      <p></p>
+
+      <div class="... flex items-center justify-center">
+        <p>Text centered vertically and horizontally.</p>
+      </div>
     </>
   )
 }
