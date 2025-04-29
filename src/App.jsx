@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <h1 class="text-3xl font-bold underline">Tailwind works!</h1>
+      <button onClick={() => { count += 1 }}>count {count}</button>
     </>
   )
 }
