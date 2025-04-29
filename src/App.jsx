@@ -5,9 +5,10 @@ import viteLogo from '/vite.svg'
 function App() {
   return (
     <>
-      <div class="flex justify-content">
-        <h1 class="text-5xl ">Hi, I'm Zach!</h1>
+      <div class="flex justify-center content-center">
+        <p class="text-5xl flex-auto ">Hi, I'm Zach!</p>
       </div>
+      <hr />
       <p></p>
     </>
   )
