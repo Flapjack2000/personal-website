@@ -2,10 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
+import NavBar from './NavBar'
+
 function App() {
   return (
     <>
-      <br />
+      <NavBar />
       <div className="grid gap-4">
 
         <div className="text-5xl content-center text-center justify-self-center italic">
