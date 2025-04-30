@@ -29,7 +29,6 @@ function NavBar() {
         <NavButtonBorder />
         <NavButton text={"About"} path={"about"} />
         <NavButtonBorder />
-
         <NavButton text={"Projects"} path={"projects"} />
       </div>
     </>
