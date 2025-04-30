@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <br />
       <div className="grid gap-4">
 
         <div className="text-5xl content-center text-center justify-self-center italic">

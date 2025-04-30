@@ -27,9 +27,9 @@ function NavBar() {
       <div className="flex border-b-2">
         <NavButton text={"Home"} path={"/"} />
         <NavButtonBorder />
-        <NavButton text={"About"} path={"about"} />
+        <NavButton text={"About"} path={"../about"} />
         <NavButtonBorder />
-        <NavButton text={"Projects"} path={"projects"} />
+        <NavButton text={"Projects"} path={"../projects"} />
       </div>
     </>
   )
