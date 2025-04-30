@@ -1,6 +1,6 @@
 import { Link } from "react-router"
 
-function NavButtonBorder() {
+function VerticalBorder() {
   return (
     <>
       <div className="border-1"></div>
@@ -12,7 +12,7 @@ function NavButton({ text, path }) {
 
   return (
     <>
-      <Link to={path} className={" flex-1 cursor-pointer text-center hover:flex-1/2 hover:animate-bounce"}>
+      <Link to={path} className=" flex-1 cursor-pointer text-center duration-100 hover:flex-1/2 hover:tracking-widest">
         <button className="cursor-pointer ">
           {text}
         </button>
@@ -26,9 +26,9 @@ function NavBar() {
     <>
       <div className="flex border-b-2">
         <NavButton text={"Home"} path={"/"} />
-        <NavButtonBorder />
+        <VerticalBorder />
         <NavButton text={"About"} path={"../about"} />
-        <NavButtonBorder />
+        <VerticalBorder />
         <NavButton text={"Projects"} path={"../projects"} />
       </div>
     </>
