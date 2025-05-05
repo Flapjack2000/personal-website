@@ -22,13 +22,12 @@ function Video({ src, desc }) {
   return (
     <>
       <div className="w-fit justify-self-center ">
-        <video playsInline autoPlay loop muted className="shadow-lg rounded-2xl max-w-100 max-h-2xl border-2 ">
+        <video preload playsInline autoPlay loop muted controls className="shadow-lg rounded-2xl max-w-100 max-h-2xl border-2 ">
           <source src={src} type="video/mp4" />
         </video>
 
         <VideoDesc text={desc} />
-        <br />
-        <br />
+        <br /><br />
       </div>
 
     </>
