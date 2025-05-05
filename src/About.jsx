@@ -1,5 +1,5 @@
 import NavBar from "./NavBar"
-import Blurb from "./Blurb"
+import { Blurb } from "./BasicUI"
 
 function About() {
   return (

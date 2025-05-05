@@ -4,21 +4,18 @@ import viteLogo from '/vite.svg'
 
 import NavBar from './NavBar'
 
-import Button from './Button'
-import Blurb from './Blurb'
+
+import { Blurb, Button, BigHeading } from './BasicUI'
 
 
 function App() {
   return (
     <>
       <NavBar />
-      <br /><br />
 
       <div className="grid gap-12">
 
-        <div className="text-5xl content-center text-center justify-self-center italic">
-          Hey, I'm Zach!
-        </div>
+        <BigHeading text={"Hey, I'm Zach!"} />
 
 
         <Blurb text={"I'm a computer science and mathematics student from West Michigan. When I'm not programming, I'm playing the piano, streaming Skyrim on Twitch, running a D&D campaign, or teaching children how to fight each other with Tae Kwon Do."} />

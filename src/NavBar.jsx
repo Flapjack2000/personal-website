@@ -32,6 +32,8 @@ function NavBar() {
         <VerticalBorder />
         <NavButton text={"Projects"} path={"../projects"} />
       </div>
+      <br /><br />
+
     </>
   )
 

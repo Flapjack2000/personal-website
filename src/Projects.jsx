@@ -1,10 +1,12 @@
 import NavBar from "./NavBar"
+import { Blurb, BigHeading } from "./BasicUI"
 function Projects() {
   return (
     <>
       <NavBar />
-
-      <h1>Projects</h1>
+      <div className="grid gap-4">
+        <BigHeading text={"Projects"} />
+      </div>
     </>
   )
 }
