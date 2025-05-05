@@ -5,11 +5,9 @@ function About() {
   return (
     <>
       <NavBar />
+      <br /><br />
 
       <div className="grid gap-4">
-        <svg>
-          <circle />
-        </svg>
 
 
         <Blurb text={"Hi"} />

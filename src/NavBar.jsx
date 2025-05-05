@@ -12,9 +12,10 @@ function NavButton({ text, path }) {
 
   return (
     <>
-      <Link to={path} className=" flex-1 cursor-pointer text-center duration-100 hover:flex-1/2 hover:tracking-widest">
+      <Link to={path} className="flex-1 cursor-pointer text-center duration-100 hover:flex-1/2 hover:tracking-widest">
         <button className="cursor-pointer ">
           {text}
+          <hr />
         </button>
       </Link >
     </>
