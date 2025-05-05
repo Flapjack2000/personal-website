@@ -22,7 +22,7 @@ function Video({ src, desc }) {
   return (
     <>
       <div className="w-fit justify-self-center ">
-        <video autoPlay loop muted className="shadow-lg rounded-2xl max-w-100 max-h-2xl border-2 ">
+        <video playsInline autoPlay loop muted className="shadow-lg rounded-2xl max-w-100 max-h-2xl border-2 ">
           <source src={src} type="video/mp4" />
         </video>
 
