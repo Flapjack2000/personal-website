@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <NavBar />
-
+      <br /><br />
       <div className="grid gap-12">
 
         <BigHeading text={"Hey, I'm Zach!"} />
