@@ -15,7 +15,7 @@ function About() {
         <img className="w-80 justify-self-center" src="src\assets\twitch_wordmark_extruded_purple.svg" />
 
         <Button text={"View Channel"} link="https://www.twitch.tv/flapjackzach2" />
-        <Blurb text={"Come join my stream on Fridays at 7:00 PM! Usually I'm playing Skyrim or Balatro."} />
+        <Blurb text={"Come join my stream on Fridays at 7:00 PM! Usually I'm playing Skyrim, Balatro, or chess."} />
         <br />
       </div>
     </>
